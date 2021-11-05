@@ -1,0 +1,54 @@
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\bin\Debug\Main_Project.exe.config
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\bin\Debug\Main_Project.exe
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\bin\Debug\Main_Project.pdb
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.exe
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.pdb
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmLogin.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmPrincipal.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmOs.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmListCliForn.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmCadCliente.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmCadFornecedor.resources
+C:\Users\Usuario\Desktop\Faculdade\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.frmProdutos.resources
+E:\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\bin\Debug\Main_Project.exe.config
+E:\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.exe
+E:\Projeto TCC\Projeto Calhas 2\Main_Project\Main_Project\obj\Debug\Main_Project.pdb
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\bin\Debug\Main_Project.exe.config
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\bin\Debug\Main_Project.exe
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\bin\Debug\Main_Project.pdb
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.csprojAssemblyReference.cache
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmCadCliente.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmCadFornecedor.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmProdutos.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmListCliForn.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmLogin.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmOs.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.frmPrincipal.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.Properties.Resources.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.csproj.GenerateResource.cache
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.exe
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Debug\Main_Project.pdb
+D:\Desenvolvimento\Projeto\Main_Project\bin\Debug\Main_Project.exe.config
+D:\Desenvolvimento\Projeto\Main_Project\bin\Debug\Main_Project.exe
+D:\Desenvolvimento\Projeto\Main_Project\bin\Debug\Main_Project.pdb
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.csprojAssemblyReference.cache
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmCadCliente.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmCadFornecedor.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmProdutos.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmListCliForn.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmLogin.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmOs.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmPrincipal.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.Properties.Resources.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.csproj.GenerateResource.cache
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.exe
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.pdb
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmAddEstoque.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmCadProduto.resources
+D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmVenda.resources

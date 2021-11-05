@@ -1,0 +1,16 @@
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\bin\Release\Main_Project.exe.config
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\bin\Release\Main_Project.exe
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\bin\Release\Main_Project.pdb
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.csprojAssemblyReference.cache
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmCadCliente.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmCadFornecedor.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmProdutos.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmListCliForn.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmLogin.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmOs.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.frmPrincipal.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.Properties.Resources.resources
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.csproj.GenerateResource.cache
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.exe
+D:\Desenvolvimento\Projeto\Main_Project\Main_Project\obj\Release\Main_Project.pdb
