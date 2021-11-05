@@ -1,0 +1,22 @@
+--------------------- 31/10/2021 --------------------
+Feito - Atutenticação login no BD
+-----------------------------------------------------
+--------------------- 04/11/2021 --------------------
+Criado telas
+
+1 - frmCadProduto - Cadastro de produto
+    '-> Sem funções'
+2 - frmVenda - Vendas
+	'-> Feito botão "sair"'
+-----------------------------------------------------
+-----------------------------------------------------
+**Alterado telas**
+
+1 - frmEstoque - Tela mostra produtos e quantidade em estoque
+    '-> Feito select para trazer produtos'
+    '-> Feito botão para abrir "frmCadProduto"'
+    '-> Feito botão para abrir "frmEstoque"'
+    '-> Feito botão "atualiza"'
+    '-> Feito botão "sair"'
+2 - frmPrincipal
+	'-> Adicionado botão "Pedido"'
