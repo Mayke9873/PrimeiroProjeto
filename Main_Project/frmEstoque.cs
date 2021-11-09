@@ -42,6 +42,15 @@ namespace Main_Project
             }
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         private void tsmiCadProduto_Click(object sender, EventArgs e)
         {
             frmCadProduto cadProduto = new frmCadProduto();

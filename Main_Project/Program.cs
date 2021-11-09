@@ -17,7 +17,7 @@ namespace Main_Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            frmLogin login = new frmLogin();
+            FrmLogin login = new FrmLogin();
             login.ShowDialog();
             login = null;
         }

@@ -19,6 +19,14 @@ namespace Main_Project
               InitializeComponent();
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
 
         private void btnCadastra_Cli_Click_1(object sender, EventArgs e)
         {

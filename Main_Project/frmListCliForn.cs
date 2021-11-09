@@ -44,6 +44,8 @@ namespace Main_Project
                 connection.Close();
             }
 
+
+
             SqlCommand cmd2 = new SqlCommand("SELECT * FROM FORNECEDOR", connection);
             try
             {
@@ -68,7 +70,16 @@ namespace Main_Project
                 connection.Close(); /* Se tudo ocorrer bem fecha a conexão com o banco da dados, sempre é bom fechar a conexão após executar até o final o que nos interessa, isso pode evitar problemas futuros */
             }
         }
-        
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         private void cadastrarClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmCadCliente frmCadCliente = new frmCadCliente();

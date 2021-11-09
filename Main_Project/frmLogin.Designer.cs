@@ -1,6 +1,6 @@
 ﻿namespace Main_Project
 {
-    partial class frmLogin
+    partial class FrmLogin
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -32,8 +32,8 @@
             this.lblSenha = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.btnCancela = new System.Windows.Forms.Button();
+            this.BtnLogin = new System.Windows.Forms.Button();
+            this.BtnCancela = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -75,27 +75,27 @@
             this.txtSenha.TabIndex = 3;
             this.txtSenha.UseSystemPasswordChar = true;
             // 
-            // btnLogin
+            // BtnLogin
             // 
-            this.btnLogin.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
-            this.btnLogin.Location = new System.Drawing.Point(35, 188);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 25);
-            this.btnLogin.TabIndex = 4;
-            this.btnLogin.Text = "Entrar";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.BtnLogin.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
+            this.BtnLogin.Location = new System.Drawing.Point(35, 188);
+            this.BtnLogin.Name = "BtnLogin";
+            this.BtnLogin.Size = new System.Drawing.Size(75, 25);
+            this.BtnLogin.TabIndex = 4;
+            this.BtnLogin.Text = "Entrar";
+            this.BtnLogin.UseVisualStyleBackColor = true;
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
-            // btnCancela
+            // BtnCancela
             // 
-            this.btnCancela.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
-            this.btnCancela.Location = new System.Drawing.Point(166, 188);
-            this.btnCancela.Name = "btnCancela";
-            this.btnCancela.Size = new System.Drawing.Size(75, 25);
-            this.btnCancela.TabIndex = 5;
-            this.btnCancela.Text = "Sair";
-            this.btnCancela.UseVisualStyleBackColor = true;
-            this.btnCancela.Click += new System.EventHandler(this.btnCancela_Click);
+            this.BtnCancela.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
+            this.BtnCancela.Location = new System.Drawing.Point(166, 188);
+            this.BtnCancela.Name = "BtnCancela";
+            this.BtnCancela.Size = new System.Drawing.Size(75, 25);
+            this.BtnCancela.TabIndex = 5;
+            this.BtnCancela.Text = "Sair";
+            this.BtnCancela.UseVisualStyleBackColor = true;
+            this.BtnCancela.Click += new System.EventHandler(this.BtnCancela_Click);
             // 
             // pictureBox1
             // 
@@ -106,20 +106,20 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // frmLogin
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(393, 255);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnCancela);
-            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.BtnCancela);
+            this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblUsuario);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "frmLogin";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmLogin";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Tag = "";
@@ -136,8 +136,8 @@
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Button btnCancela;
+        private System.Windows.Forms.Button BtnLogin;
+        private System.Windows.Forms.Button BtnCancela;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.menuPrincipal = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.grpInfo = new System.Windows.Forms.GroupBox();
             this.tsbCliForn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbVenda = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbOs = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbEstoque = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbFecharSist = new System.Windows.Forms.ToolStripButton();
+            this.grpInfo = new System.Windows.Forms.GroupBox();
             this.menuPrincipal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,35 +64,6 @@
             this.menuPrincipal.TabIndex = 0;
             this.menuPrincipal.Text = "Menu Principal";
             // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 40);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 40);
-            // 
-            // grpInfo
-            // 
-            this.grpInfo.Location = new System.Drawing.Point(0, 43);
-            this.grpInfo.Name = "grpInfo";
-            this.grpInfo.Size = new System.Drawing.Size(860, 523);
-            this.grpInfo.TabIndex = 2;
-            this.grpInfo.TabStop = false;
-            this.grpInfo.Text = "Info";
-            // 
             // tsbCliForn
             // 
             this.tsbCliForn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -104,6 +75,11 @@
             this.tsbCliForn.Text = "Cliente / Fornecedor";
             this.tsbCliForn.Click += new System.EventHandler(this.tsbCliForn_Click);
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 40);
+            // 
             // tsbVenda
             // 
             this.tsbVenda.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -113,6 +89,11 @@
             this.tsbVenda.Size = new System.Drawing.Size(36, 37);
             this.tsbVenda.Text = "Vendas";
             this.tsbVenda.Click += new System.EventHandler(this.tsbVenda_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 40);
             // 
             // tsbOs
             // 
@@ -125,6 +106,11 @@
             this.tsbOs.Text = "O.S.";
             this.tsbOs.Click += new System.EventHandler(this.tsbOs_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 40);
+            // 
             // tsbEstoque
             // 
             this.tsbEstoque.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -134,6 +120,11 @@
             this.tsbEstoque.Size = new System.Drawing.Size(36, 37);
             this.tsbEstoque.Text = "Estoque";
             this.tsbEstoque.Click += new System.EventHandler(this.tsbEstoque_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 40);
             // 
             // tsbFecharSist
             // 
@@ -145,6 +136,15 @@
             this.tsbFecharSist.Text = "Fechar Sistema";
             this.tsbFecharSist.Click += new System.EventHandler(this.tsbFecharSist_Click);
             // 
+            // grpInfo
+            // 
+            this.grpInfo.Location = new System.Drawing.Point(0, 43);
+            this.grpInfo.Name = "grpInfo";
+            this.grpInfo.Size = new System.Drawing.Size(860, 523);
+            this.grpInfo.TabIndex = 2;
+            this.grpInfo.TabStop = false;
+            this.grpInfo.Text = "Info";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -154,6 +154,7 @@
             this.Controls.Add(this.menuPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IsMdiContainer = true;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "frmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

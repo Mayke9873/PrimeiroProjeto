@@ -11,23 +11,54 @@ using System.Windows.Forms;
 
 namespace Main_Project
 {
-    public partial class frmLogin : Form
+    public partial class FrmLogin : Form
     {
-        public frmLogin()
+        public FrmLogin()
         {
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        Usuario login = new Usuario();
+
+        //Código para tecla de atalho.
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
-            Usuario login = new Usuario();
+            switch (keyData)
+            {
+                case Keys.Escape:
+                this.Close();
+                break;
+
+                case Keys.Enter:
+                    if (txtUsuario.Text == "")
+                    {
+                        MessageBox.Show("Preencher Usuario");
+                    }
+                    else if (txtSenha.Text == "")
+                    {
+                        MessageBox.Show("Preencher Senha");
+                    }
+                    else
+                    {
+                        login.nome_user = txtUsuario.Text;
+                        login.senha_user = txtSenha.Text;
+
+                        login.EfetuarLogin();
+                    }
+                    break;
+            }
+
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
             login.nome_user = txtUsuario.Text;
             login.senha_user = txtSenha.Text;
 
             login.EfetuarLogin();
         }
-
-        private void btnCancela_Click(object sender, EventArgs e)
+        
+        private void BtnCancela_Click(object sender, EventArgs e)
         {
             this.Close();
         }

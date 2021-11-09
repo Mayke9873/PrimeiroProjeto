@@ -20,12 +20,22 @@ namespace Main_Project
             InitializeComponent();
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys key)
+        {
+            if (key == (Keys.Alt | Keys.F4))
+            {
+                if (MessageBox.Show("Deseja sair do sistema?","SAIR", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    Application.Exit();
+                }
+            }
+            return base.ProcessCmdKey(ref msg, key);
+        }
 
         private void tsbCliForn_Click(object sender, EventArgs e)
         {
             frmListCliForn frmCliForn = new frmListCliForn ();
             frmCliForn.TopLevel = false;
-
             grpInfo.Controls.Add(frmCliForn);
 
            // frmCliForn.FormBorderStyle = FormBorderStyle.None;     ****Tira as bordas do formulário****

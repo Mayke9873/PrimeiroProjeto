@@ -20,3 +20,38 @@ Criado telas
     '-> Feito botão "sair"'
 2 - frmPrincipal
 	'-> Adicionado botão "Pedido"'
+-----------------------------------------------------
+--------------------- 06/11/2021 --------------------
+**Alterado Tela**
+
+1 - frmLogin
+	'-> Adicionado atalhos'
+		'->Enter - Efetua login'
+		'->Esc - Fecha tela de Login'
+
+2 - frmPrincipal
+	'- "Esc" fecha tela'
+
+3 - frmVenda
+	'- "Esc" fecha tela'
+
+4 - frmOs
+	'- "Esc" fecha tela'
+
+5 - frmListCliForn
+	'- "Esc" fecha tela'
+
+6 - frmEstoque
+	'- "Esc" fecha tela'
+
+7 - frmCadProduto
+	'- "Esc" fecha tela'
+
+8 - frmCadFornecedor
+	'- "Esc" fecha tela'
+
+9 - frmCadCliete
+	'- "Esc" fecha tela'
+
+9 - frmAddEstoque
+	'- "Esc" fecha tela's
