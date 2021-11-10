@@ -42,6 +42,8 @@
             this.mtbCnpj_Forn = new System.Windows.Forms.MaskedTextBox();
             this.btnCancelar_Forn = new System.Windows.Forms.Button();
             this.btnCadastra_Forn = new System.Windows.Forms.Button();
+            this.mtbIe_Forn = new System.Windows.Forms.MaskedTextBox();
+            this.lblIe = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblCNPJ
@@ -176,11 +178,31 @@
             this.btnCadastra_Forn.UseVisualStyleBackColor = false;
             this.btnCadastra_Forn.Click += new System.EventHandler(this.btnCadastra_Forn_Click);
             // 
+            // mtbIe_Forn
+            // 
+            this.mtbIe_Forn.Font = new System.Drawing.Font("Arial", 10F);
+            this.mtbIe_Forn.Location = new System.Drawing.Point(298, 233);
+            this.mtbIe_Forn.Name = "mtbIe_Forn";
+            this.mtbIe_Forn.Size = new System.Drawing.Size(181, 23);
+            this.mtbIe_Forn.TabIndex = 51;
+            // 
+            // lblIe
+            // 
+            this.lblIe.AutoSize = true;
+            this.lblIe.Font = new System.Drawing.Font("Times New Roman", 14F);
+            this.lblIe.Location = new System.Drawing.Point(294, 209);
+            this.lblIe.Name = "lblIe";
+            this.lblIe.Size = new System.Drawing.Size(31, 21);
+            this.lblIe.TabIndex = 50;
+            this.lblIe.Text = "IE:";
+            // 
             // frmCadFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 421);
+            this.Controls.Add(this.mtbIe_Forn);
+            this.Controls.Add(this.lblIe);
             this.Controls.Add(this.mtbCnpj_Forn);
             this.Controls.Add(this.mtbCelular_Forn);
             this.Controls.Add(this.mtbTelefone_Forn);
@@ -218,5 +240,7 @@
         private System.Windows.Forms.MaskedTextBox mtbTelefone_Forn;
         private System.Windows.Forms.MaskedTextBox mtbCelular_Forn;
         private System.Windows.Forms.MaskedTextBox mtbCnpj_Forn;
+        private System.Windows.Forms.MaskedTextBox mtbIe_Forn;
+        private System.Windows.Forms.Label lblIe;
     }
 }

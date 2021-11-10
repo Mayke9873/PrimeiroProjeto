@@ -32,17 +32,29 @@ namespace Main_Project
             string strcon = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Desenvolvimento\Banco\CalhasDB.mdf;Integrated Security=True;Connect Timeout=30";
             SqlConnection conexao = new SqlConnection(strcon);
 
-            SqlCommand cmd = new SqlCommand("INSERT INTO Fornecedor (fNOME, fEMAIL, fTELEFONE, fCELULAR, fCNPJ, fENDERECO)" +
+            SqlCommand cmd = new SqlCommand("INSERT INTO Fornecedor (NOME, EMAIL, TELEFONE1, TELEFONE2, CNPJ, ie, fENDERECO)" +
                 "VALUES ('" + txtNome_Forn.Text + "',  '" + txtEmail_Forn.Text + "', '" + mtbTelefone_Forn.Text + "', '" +
-                mtbCelular_Forn.Text + "', '" + mtbCnpj_Forn.Text + "', '"  + txtEndereco_Forn.Text + "')", conexao); /*cmd possui mais de um parâmetro, neste caso coloquei o comando SQL "SELECT * FROM tabela" que irá selecionar tudo(*) de tabela, o segundo parâmetro indica onde o banco está conectado,ou seja se estamos selecionando informações do banco precisamos dizer onde ele está localizado */
+                mtbCelular_Forn.Text + "', '" + mtbCnpj_Forn.Text + "', '" + mtbIe_Forn.Text + "', '"  + txtEndereco_Forn.Text + "')", conexao); /*cmd possui mais de um parâmetro, neste caso coloquei o comando SQL "SELECT * FROM tabela" que irá selecionar tudo(*) de tabela, o segundo parâmetro indica onde o banco está conectado,ou seja se estamos selecionando informações do banco precisamos dizer onde ele está localizado */
 
 
-            if (txtNome_Forn.Text != "" && txtEmail_Forn.Text != "" && mtbCelular_Forn.Text != "" && mtbCnpj_Forn.Text != ""  && txtEndereco_Forn.Text != "")
+            if (txtNome_Forn.Text == "")
+            {
+                MessageBox.Show("Preencher Nome", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (mtbTelefone_Forn.Text.Replace("(","").Replace(")","").Replace("-","").Trim().Length == 0)
+            {
+                MessageBox.Show("Preencher Telefone", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (mtbCnpj_Forn.Text.Replace(".","").Replace("/","").Replace("-","").Trim().Length == 0)
+            {
+                MessageBox.Show("Preencher CNPJ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
             {
                 try //Tenta executar o que estiver abaixo (Verifica)
                 {
                     conexao.Open(); // abre a conexão com o banco   
-                    cmd.ExecuteNonQuery(); // executa cmd
+                    cmd.ExecuteNonQuery(); // executa a Query
                                            /*Pronto após o cmd.ExecuteNonQuery(); selecionamos tudo o que tinha dentro do banco, agora os passos seguintes irão exibir as informações para que o usuário possa vê-las    */
                     SqlDataAdapter da = new SqlDataAdapter(); /* da, adapta o banco de dados ao nosso projeto */
                     DataSet ds = new DataSet();
@@ -54,6 +66,7 @@ namespace Main_Project
                     mtbTelefone_Forn.Clear();
                     mtbCelular_Forn.Clear();
                     mtbCnpj_Forn.Clear();
+                    mtbIe_Forn.Clear();
                     txtEndereco_Forn.Clear();
                 }
                 catch (Exception ex)

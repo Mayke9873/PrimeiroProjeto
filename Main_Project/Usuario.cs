@@ -45,7 +45,7 @@ namespace Main_Project
                 MessageBox.Show(ex.Message);
             }
             finally
-            { 
+            {
                 //connection.Close(); /* Se tudo ocorrer bem fecha a conexão com o banco da dados, sempre é bom fechar a conexão após executar até o final o que nos interessa, isso pode evitar problemas futuros */
             }
         }

@@ -22,7 +22,7 @@ Criado telas
 	'-> Adicionado botão "Pedido"'
 -----------------------------------------------------
 --------------------- 06/11/2021 --------------------
-**Alterado Tela**
+**** Alterado Tela ****
 
 1 - frmLogin
 	'-> Adicionado atalhos'
@@ -50,8 +50,32 @@ Criado telas
 8 - frmCadFornecedor
 	'- "Esc" fecha tela'
 
-9 - frmCadCliete
+9 - frmCadCliente
 	'- "Esc" fecha tela'
 
 9 - frmAddEstoque
-	'- "Esc" fecha tela's
+	'- "Esc" fecha tela'
+
+10 - frmPrincipal
+	'- "Alt + F4" Fecha sistema'
+-----------------------------------------------------
+--------------------- 09/11/2021 --------------------
+**** Alterado Tela ****
+
+1 - frmLogin
+	'-> Tirado botões "Login" , "Sair"'
+
+2 - frmCadFornecedor
+	'-> Colocado campo "IE"'
+	'->Cadastro'
+		'-> Verifica campos:
+			->Nome
+			->Telefone
+			->CNPJ'
+
+3 - frmCadCliente
+	'->Cadastro'
+		'-> Verifica campos:
+			->Nome
+			->Telefone
+			->CPF'

@@ -47,20 +47,7 @@ namespace Main_Project
                     }
                     break;
             }
-
             return base.ProcessCmdKey(ref msg, keyData);
-        }
-        private void BtnLogin_Click(object sender, EventArgs e)
-        {
-            login.nome_user = txtUsuario.Text;
-            login.senha_user = txtSenha.Text;
-
-            login.EfetuarLogin();
-        }
-        
-        private void BtnCancela_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }
