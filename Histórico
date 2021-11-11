@@ -79,3 +79,18 @@ Criado telas
 			->Nome
 			->Telefone
 			->CPF'
+-----------------------------------------------------
+--------------------- 10/11/2021 --------------------
+**** Alterado Tela ****
+
+1 - frmCadProduto
+	'-> Cadastro'
+		'-> Campo codigo "Não editavel"'
+		'-> Verifica o campo "Descrição.'
+
+-----------------------------------------------------
+***** Alterado Banco ******
+
+1 - Alterado tabela Estoque
+2 - Alterado tabela Produto
+	'-> Arquivo Log'

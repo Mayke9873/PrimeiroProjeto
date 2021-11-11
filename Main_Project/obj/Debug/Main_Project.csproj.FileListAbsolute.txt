@@ -52,3 +52,5 @@ D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.pdb
 D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmAddEstoque.resources
 D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmCadProduto.resources
 D:\Desenvolvimento\Projeto\Main_Project\obj\Debug\Main_Project.frmVenda.resources
+D:\Desenvolvimento\Projeto\Main_Project\bin\Debug\CalhasDB.mdf
+D:\Desenvolvimento\Projeto\Main_Project\bin\Debug\CalhasDB_log.ldf

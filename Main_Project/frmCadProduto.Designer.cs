@@ -40,8 +40,8 @@
             this.lblTipo = new System.Windows.Forms.Label();
             this.lblDescricao = new System.Windows.Forms.Label();
             this.lblCod_prod = new System.Windows.Forms.Label();
-            this.btnCancelar_Forn = new System.Windows.Forms.Button();
-            this.btnCadastra_Forn = new System.Windows.Forms.Button();
+            this.btnCancelar_Prod = new System.Windows.Forms.Button();
+            this.btnCadastra_Prod = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtGrupo
@@ -50,7 +50,7 @@
             this.txtGrupo.Location = new System.Drawing.Point(298, 165);
             this.txtGrupo.Name = "txtGrupo";
             this.txtGrupo.Size = new System.Drawing.Size(181, 23);
-            this.txtGrupo.TabIndex = 81;
+            this.txtGrupo.TabIndex = 5;
             // 
             // txtTipo
             // 
@@ -60,7 +60,7 @@
             this.txtTipo.Multiline = true;
             this.txtTipo.Name = "txtTipo";
             this.txtTipo.Size = new System.Drawing.Size(181, 23);
-            this.txtTipo.TabIndex = 80;
+            this.txtTipo.TabIndex = 4;
             // 
             // txtBarras
             // 
@@ -71,7 +71,7 @@
             this.txtBarras.Location = new System.Drawing.Point(351, 44);
             this.txtBarras.Name = "txtBarras";
             this.txtBarras.Size = new System.Drawing.Size(128, 23);
-            this.txtBarras.TabIndex = 79;
+            this.txtBarras.TabIndex = 2;
             // 
             // lblBarras
             // 
@@ -90,7 +90,7 @@
             this.mtbCnpj_Forn.Mask = "00/00/0000";
             this.mtbCnpj_Forn.Name = "mtbCnpj_Forn";
             this.mtbCnpj_Forn.Size = new System.Drawing.Size(79, 23);
-            this.mtbCnpj_Forn.TabIndex = 75;
+            this.mtbCnpj_Forn.TabIndex = 6;
             this.mtbCnpj_Forn.ValidatingType = typeof(System.DateTime);
             // 
             // txtDesc_prod
@@ -99,18 +99,21 @@
             this.txtDesc_prod.Location = new System.Drawing.Point(73, 105);
             this.txtDesc_prod.Name = "txtDesc_prod";
             this.txtDesc_prod.Size = new System.Drawing.Size(406, 23);
-            this.txtDesc_prod.TabIndex = 74;
+            this.txtDesc_prod.TabIndex = 3;
             // 
             // txtCod_prod
             // 
-            this.txtCod_prod.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Append;
-            this.txtCod_prod.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
+            this.txtCod_prod.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.txtCod_prod.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtCod_prod.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystem;
             this.txtCod_prod.CausesValidation = false;
             this.txtCod_prod.Font = new System.Drawing.Font("Arial", 10F);
             this.txtCod_prod.Location = new System.Drawing.Point(145, 44);
+            this.txtCod_prod.Multiline = true;
             this.txtCod_prod.Name = "txtCod_prod";
-            this.txtCod_prod.Size = new System.Drawing.Size(109, 23);
-            this.txtCod_prod.TabIndex = 73;
+            this.txtCod_prod.ReadOnly = true;
+            this.txtCod_prod.Size = new System.Drawing.Size(109, 20);
+            this.txtCod_prod.TabIndex = 1;
             // 
             // lblCNPJ
             // 
@@ -162,25 +165,26 @@
             this.lblCod_prod.TabIndex = 68;
             this.lblCod_prod.Text = "Codigo:";
             // 
-            // btnCancelar_Forn
+            // btnCancelar_Prod
             // 
-            this.btnCancelar_Forn.BackColor = System.Drawing.SystemColors.Control;
-            this.btnCancelar_Forn.Image = global::Main_Project.Properties.Resources.not_icon;
-            this.btnCancelar_Forn.Location = new System.Drawing.Point(150, 321);
-            this.btnCancelar_Forn.Name = "btnCancelar_Forn";
-            this.btnCancelar_Forn.Size = new System.Drawing.Size(75, 56);
-            this.btnCancelar_Forn.TabIndex = 76;
-            this.btnCancelar_Forn.UseVisualStyleBackColor = false;
+            this.btnCancelar_Prod.BackColor = System.Drawing.SystemColors.Control;
+            this.btnCancelar_Prod.Image = global::Main_Project.Properties.Resources.not_icon;
+            this.btnCancelar_Prod.Location = new System.Drawing.Point(150, 321);
+            this.btnCancelar_Prod.Name = "btnCancelar_Prod";
+            this.btnCancelar_Prod.Size = new System.Drawing.Size(75, 56);
+            this.btnCancelar_Prod.TabIndex = 76;
+            this.btnCancelar_Prod.UseVisualStyleBackColor = false;
             // 
-            // btnCadastra_Forn
+            // btnCadastra_Prod
             // 
-            this.btnCadastra_Forn.BackColor = System.Drawing.SystemColors.Control;
-            this.btnCadastra_Forn.Image = global::Main_Project.Properties.Resources.accept_icon;
-            this.btnCadastra_Forn.Location = new System.Drawing.Point(330, 321);
-            this.btnCadastra_Forn.Name = "btnCadastra_Forn";
-            this.btnCadastra_Forn.Size = new System.Drawing.Size(75, 56);
-            this.btnCadastra_Forn.TabIndex = 77;
-            this.btnCadastra_Forn.UseVisualStyleBackColor = false;
+            this.btnCadastra_Prod.BackColor = System.Drawing.SystemColors.Control;
+            this.btnCadastra_Prod.Image = global::Main_Project.Properties.Resources.accept_icon;
+            this.btnCadastra_Prod.Location = new System.Drawing.Point(330, 321);
+            this.btnCadastra_Prod.Name = "btnCadastra_Prod";
+            this.btnCadastra_Prod.Size = new System.Drawing.Size(75, 56);
+            this.btnCadastra_Prod.TabIndex = 77;
+            this.btnCadastra_Prod.UseVisualStyleBackColor = false;
+            this.btnCadastra_Prod.Click += new System.EventHandler(this.btnCadastra_Prod_Click);
             // 
             // frmCadProduto
             // 
@@ -199,8 +203,8 @@
             this.Controls.Add(this.lblTipo);
             this.Controls.Add(this.lblDescricao);
             this.Controls.Add(this.lblCod_prod);
-            this.Controls.Add(this.btnCancelar_Forn);
-            this.Controls.Add(this.btnCadastra_Forn);
+            this.Controls.Add(this.btnCancelar_Prod);
+            this.Controls.Add(this.btnCadastra_Prod);
             this.Name = "frmCadProduto";
             this.Text = "Cadastro de Produto";
             this.ResumeLayout(false);
@@ -222,7 +226,7 @@
         private System.Windows.Forms.Label lblTipo;
         private System.Windows.Forms.Label lblDescricao;
         private System.Windows.Forms.Label lblCod_prod;
-        private System.Windows.Forms.Button btnCancelar_Forn;
-        private System.Windows.Forms.Button btnCadastra_Forn;
+        private System.Windows.Forms.Button btnCancelar_Prod;
+        private System.Windows.Forms.Button btnCadastra_Prod;
     }
 }
