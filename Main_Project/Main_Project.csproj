@@ -67,6 +67,12 @@
     <Compile Include="frmAddEstoque.Designer.cs">
       <DependentUpon>frmAddEstoque.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAjusteEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjusteEstoque.Designer.cs">
+      <DependentUpon>frmAjusteEstoque.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="frmAddEstoque.resx">
       <DependentUpon>frmAddEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAjusteEstoque.resx">
+      <DependentUpon>frmAjusteEstoque.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCadCliente.resx">
       <DependentUpon>frmCadCliente.cs</DependentUpon>

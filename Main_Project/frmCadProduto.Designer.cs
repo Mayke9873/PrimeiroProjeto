@@ -32,7 +32,7 @@
             this.txtTipo = new System.Windows.Forms.TextBox();
             this.txtBarras = new System.Windows.Forms.TextBox();
             this.lblBarras = new System.Windows.Forms.Label();
-            this.mtbCnpj_Forn = new System.Windows.Forms.MaskedTextBox();
+            this.mtbDtUltCompra = new System.Windows.Forms.MaskedTextBox();
             this.txtDesc_prod = new System.Windows.Forms.TextBox();
             this.txtCod_prod = new System.Windows.Forms.TextBox();
             this.lblCNPJ = new System.Windows.Forms.Label();
@@ -83,15 +83,17 @@
             this.lblBarras.TabIndex = 78;
             this.lblBarras.Text = "Barras:";
             // 
-            // mtbCnpj_Forn
+            // mtbDtUltCompra
             // 
-            this.mtbCnpj_Forn.Font = new System.Drawing.Font("Arial", 10F);
-            this.mtbCnpj_Forn.Location = new System.Drawing.Point(333, 229);
-            this.mtbCnpj_Forn.Mask = "00/00/0000";
-            this.mtbCnpj_Forn.Name = "mtbCnpj_Forn";
-            this.mtbCnpj_Forn.Size = new System.Drawing.Size(79, 23);
-            this.mtbCnpj_Forn.TabIndex = 6;
-            this.mtbCnpj_Forn.ValidatingType = typeof(System.DateTime);
+            this.mtbDtUltCompra.Font = new System.Drawing.Font("Arial", 10F);
+            this.mtbDtUltCompra.Location = new System.Drawing.Point(333, 229);
+            this.mtbDtUltCompra.Mask = "00/00/0000";
+            this.mtbDtUltCompra.Name = "mtbDtUltCompra";
+            this.mtbDtUltCompra.ReadOnly = true;
+            this.mtbDtUltCompra.Size = new System.Drawing.Size(79, 23);
+            this.mtbDtUltCompra.TabIndex = 6;
+            this.mtbDtUltCompra.TabStop = false;
+            this.mtbDtUltCompra.ValidatingType = typeof(System.DateTime);
             // 
             // txtDesc_prod
             // 
@@ -114,6 +116,7 @@
             this.txtCod_prod.ReadOnly = true;
             this.txtCod_prod.Size = new System.Drawing.Size(109, 20);
             this.txtCod_prod.TabIndex = 1;
+            this.txtCod_prod.TabStop = false;
             // 
             // lblCNPJ
             // 
@@ -172,7 +175,7 @@
             this.btnCancelar_Prod.Location = new System.Drawing.Point(150, 321);
             this.btnCancelar_Prod.Name = "btnCancelar_Prod";
             this.btnCancelar_Prod.Size = new System.Drawing.Size(75, 56);
-            this.btnCancelar_Prod.TabIndex = 76;
+            this.btnCancelar_Prod.TabIndex = 7;
             this.btnCancelar_Prod.UseVisualStyleBackColor = false;
             // 
             // btnCadastra_Prod
@@ -182,7 +185,7 @@
             this.btnCadastra_Prod.Location = new System.Drawing.Point(330, 321);
             this.btnCadastra_Prod.Name = "btnCadastra_Prod";
             this.btnCadastra_Prod.Size = new System.Drawing.Size(75, 56);
-            this.btnCadastra_Prod.TabIndex = 77;
+            this.btnCadastra_Prod.TabIndex = 6;
             this.btnCadastra_Prod.UseVisualStyleBackColor = false;
             this.btnCadastra_Prod.Click += new System.EventHandler(this.btnCadastra_Prod_Click);
             // 
@@ -195,7 +198,7 @@
             this.Controls.Add(this.txtTipo);
             this.Controls.Add(this.txtBarras);
             this.Controls.Add(this.lblBarras);
-            this.Controls.Add(this.mtbCnpj_Forn);
+            this.Controls.Add(this.mtbDtUltCompra);
             this.Controls.Add(this.txtDesc_prod);
             this.Controls.Add(this.txtCod_prod);
             this.Controls.Add(this.lblCNPJ);
@@ -218,7 +221,7 @@
         private System.Windows.Forms.TextBox txtTipo;
         private System.Windows.Forms.TextBox txtBarras;
         private System.Windows.Forms.Label lblBarras;
-        private System.Windows.Forms.MaskedTextBox mtbCnpj_Forn;
+        private System.Windows.Forms.MaskedTextBox mtbDtUltCompra;
         private System.Windows.Forms.TextBox txtDesc_prod;
         private System.Windows.Forms.TextBox txtCod_prod;
         private System.Windows.Forms.Label lblCNPJ;

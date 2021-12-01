@@ -54,6 +54,7 @@
             this.tsbExitFrmOS = new System.Windows.Forms.ToolStripButton();
             this.lblCliente = new System.Windows.Forms.Label();
             this.tsFrmOs = new System.Windows.Forms.ToolStrip();
+            this.codProd = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tsFrmOs.SuspendLayout();
             this.SuspendLayout();
@@ -102,7 +103,7 @@
             this.textBox5.Location = new System.Drawing.Point(741, 205);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(96, 23);
-            this.textBox5.TabIndex = 101;
+            this.textBox5.TabIndex = 10;
             // 
             // textBox4
             // 
@@ -110,7 +111,7 @@
             this.textBox4.Location = new System.Drawing.Point(666, 205);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(66, 23);
-            this.textBox4.TabIndex = 100;
+            this.textBox4.TabIndex = 9;
             // 
             // textBox3
             // 
@@ -118,7 +119,7 @@
             this.textBox3.Location = new System.Drawing.Point(561, 205);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(96, 23);
-            this.textBox3.TabIndex = 99;
+            this.textBox3.TabIndex = 8;
             // 
             // textBox2
             // 
@@ -126,7 +127,7 @@
             this.textBox2.Location = new System.Drawing.Point(519, 205);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(36, 23);
-            this.textBox2.TabIndex = 98;
+            this.textBox2.TabIndex = 0;
             // 
             // textBox1
             // 
@@ -134,7 +135,7 @@
             this.textBox1.Location = new System.Drawing.Point(456, 205);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(63, 23);
-            this.textBox1.TabIndex = 97;
+            this.textBox1.TabIndex = 7;
             // 
             // label1
             // 
@@ -152,7 +153,7 @@
             this.txtId_cliente.Location = new System.Drawing.Point(44, 136);
             this.txtId_cliente.Name = "txtId_cliente";
             this.txtId_cliente.Size = new System.Drawing.Size(71, 23);
-            this.txtId_cliente.TabIndex = 95;
+            this.txtId_cliente.TabIndex = 3;
             // 
             // txtId_vendedor
             // 
@@ -160,7 +161,7 @@
             this.txtId_vendedor.Location = new System.Drawing.Point(44, 85);
             this.txtId_vendedor.Name = "txtId_vendedor";
             this.txtId_vendedor.Size = new System.Drawing.Size(71, 23);
-            this.txtId_vendedor.TabIndex = 94;
+            this.txtId_vendedor.TabIndex = 1;
             // 
             // txtVendedor
             // 
@@ -168,7 +169,7 @@
             this.txtVendedor.Location = new System.Drawing.Point(116, 85);
             this.txtVendedor.Name = "txtVendedor";
             this.txtVendedor.Size = new System.Drawing.Size(334, 23);
-            this.txtVendedor.TabIndex = 93;
+            this.txtVendedor.TabIndex = 2;
             // 
             // lblVendedor
             // 
@@ -186,7 +187,7 @@
             this.txtCliente.Location = new System.Drawing.Point(116, 136);
             this.txtCliente.Name = "txtCliente";
             this.txtCliente.Size = new System.Drawing.Size(334, 23);
-            this.txtCliente.TabIndex = 91;
+            this.txtCliente.TabIndex = 4;
             // 
             // maskedTextBox1
             // 
@@ -209,10 +210,10 @@
             // txtEndereco_Forn
             // 
             this.txtEndereco_Forn.Font = new System.Drawing.Font("Arial", 10F);
-            this.txtEndereco_Forn.Location = new System.Drawing.Point(44, 205);
+            this.txtEndereco_Forn.Location = new System.Drawing.Point(116, 205);
             this.txtEndereco_Forn.Name = "txtEndereco_Forn";
-            this.txtEndereco_Forn.Size = new System.Drawing.Size(406, 23);
-            this.txtEndereco_Forn.TabIndex = 86;
+            this.txtEndereco_Forn.Size = new System.Drawing.Size(334, 23);
+            this.txtEndereco_Forn.TabIndex = 6;
             // 
             // lbl
             // 
@@ -251,7 +252,7 @@
             this.btnCancelar_Forn.Location = new System.Drawing.Point(306, 436);
             this.btnCancelar_Forn.Name = "btnCancelar_Forn";
             this.btnCancelar_Forn.Size = new System.Drawing.Size(75, 56);
-            this.btnCancelar_Forn.TabIndex = 87;
+            this.btnCancelar_Forn.TabIndex = 12;
             this.btnCancelar_Forn.UseVisualStyleBackColor = false;
             // 
             // btnCadastra_Forn
@@ -261,7 +262,7 @@
             this.btnCadastra_Forn.Location = new System.Drawing.Point(486, 436);
             this.btnCadastra_Forn.Name = "btnCadastra_Forn";
             this.btnCadastra_Forn.Size = new System.Drawing.Size(75, 56);
-            this.btnCadastra_Forn.TabIndex = 88;
+            this.btnCadastra_Forn.TabIndex = 11;
             this.btnCadastra_Forn.UseVisualStyleBackColor = false;
             // 
             // tsbExitFrmOS
@@ -296,11 +297,20 @@
             this.tsFrmOs.TabIndex = 81;
             this.tsFrmOs.Text = "toolStrip1";
             // 
+            // codProd
+            // 
+            this.codProd.Font = new System.Drawing.Font("Arial", 10F);
+            this.codProd.Location = new System.Drawing.Point(44, 205);
+            this.codProd.Name = "codProd";
+            this.codProd.Size = new System.Drawing.Size(71, 23);
+            this.codProd.TabIndex = 5;
+            // 
             // frmVenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(860, 523);
+            this.Controls.Add(this.codProd);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -366,5 +376,6 @@
         private System.Windows.Forms.ToolStripButton tsbExitFrmOS;
         private System.Windows.Forms.Label lblCliente;
         private System.Windows.Forms.ToolStrip tsFrmOs;
+        private System.Windows.Forms.TextBox codProd;
     }
 }

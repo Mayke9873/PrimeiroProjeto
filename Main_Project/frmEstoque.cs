@@ -17,6 +17,14 @@ namespace Main_Project
         SqlCommand command = null;
         SqlConnection conexao = null;
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Escape)
+            {
+                this.Close();
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
 
         public frmProdutos()
         {
@@ -42,32 +50,22 @@ namespace Main_Project
             }
         }
 
-        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
-        {
-            if (keyData == Keys.Escape)
-            {
-                this.Close();
-            }
-            return base.ProcessCmdKey(ref msg, keyData);
-        }
-
         private void tsmiCadProduto_Click(object sender, EventArgs e)
         {
             frmCadProduto cadProduto = new frmCadProduto();
-
-            cadProduto.Show();
+            cadProduto.ShowDialog();
         }
 
         private void tsmiAddEstoque_Click(object sender, EventArgs e)
         {
             frmAddEstoque addEstoque = new frmAddEstoque();
-
-            addEstoque.Show();
+            addEstoque.ShowDialog();
         }
 
         private void tmsiAjustestoque_Click(object sender, EventArgs e)
         {
-
+            frmAjusteEstoque ajuste = new frmAjusteEstoque();
+            ajuste.ShowDialog();
         }
 
         private void tsAtualiza_Prod_Click(object sender, EventArgs e)

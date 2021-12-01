@@ -57,7 +57,12 @@ namespace Main_Project
             }
             finally
             {
-
+                txtBarras.Clear();
+                txtDesc_prod.Clear();
+                txtTipo.Clear();
+                txtGrupo.Clear();
+                mtbDtUltCompra.Clear();
+                conexao.Close();
             }
         }
     }
